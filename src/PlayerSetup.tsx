@@ -112,7 +112,6 @@ const PlayerSetup: React.FC = () => {
       "spliff",
       "rasta",
       "fade",
-      "nigga",
       "durag",
       "balaclava",
       "rizz",
