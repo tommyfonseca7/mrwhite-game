@@ -76,11 +76,11 @@ const PlayerSetup: React.FC = () => {
         className="mb-4"
       />
       <Button onClick={handleAddPlayer} className="mb-4">
-        Add Player
+        Adicionar Jogador
       </Button>
       {players.length >= 4 && (
         <Button onClick={handleStartGame} className="mb-4">
-          Start Game
+          Começar o Jogo
         </Button>
       )}
       <CardGrid>
