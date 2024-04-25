@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+# Mr White Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple Project using React, VueJS and TailwindCSS. Used the shadcn/ui for some components.
+Currently depoyed on [here](https://mrwhite-game.vercel.app/).
+The project is in Portguese, and the ideia come up because my friend group plays the famous Mr.White game on a application that only gives no more than 10 different words for free. With that said, I took the oportunity to develop this project, using the word list that me and my friend group create.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#Futher Features and Optimizations
+-Create the Undercover player, for that each word from the wordlist needs to have a similar word atach to it.
+-Take it a step foward, make a lobby so all can join and see their word, display the order in each player device, and so on...
